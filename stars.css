@@ -1,0 +1,16 @@
+h1:first-child {
+  color: rgb(50, 189, 50);
+}
+
+li:first-child {
+  text-decoration: underline;
+}
+
+#male-actors :first-child,
+#male-actors :last-child {
+  color: rgb(254, 254, 10);
+}
+
+#female-actors :nth-of-type(even) {
+  background-color: rgb(161, 161, 248);
+}
